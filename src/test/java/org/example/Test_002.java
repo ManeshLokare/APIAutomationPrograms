@@ -13,12 +13,13 @@ public class Test_002 {
         // then () --> verify response (ER==AR)
 
         RestAssured
-                .given().baseUri("https://reqres.in/api")
-                .basePath("/users/2").log().all()
+                .given()
+                      .baseUri("https://reqres.in/api")
+                      .basePath("/users/2")
                 .when()
                      .get()
                 .then().log().all()
-                .statusCode(200);
+                      .statusCode(200);
 
 
 
