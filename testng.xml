@@ -5,6 +5,10 @@
         <classes>
             <class name="org.example.TestNG.Test_001">
             </class>
+            <class name="org.example.TestNG.Annotations">
+            </class>
+            <class name="org.example.TestNG.Test_002">
+            </class>
         </classes>
     </test>
 </suite>
