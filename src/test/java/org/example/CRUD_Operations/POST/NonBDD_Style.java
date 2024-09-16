@@ -1,11 +1,11 @@
-package org.example.ex_15092024.CRUD.POST;
+package org.example.CRUD_Operations.POST;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
-import org.testng.annotations.Test;
+
 
 public class NonBDD_Style {
     public static void main(String[] args) {

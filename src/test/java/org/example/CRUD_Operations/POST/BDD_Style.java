@@ -1,4 +1,4 @@
-package org.example.ex_15092024.CRUD.POST;
+package org.example.CRUD_Operations.POST;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

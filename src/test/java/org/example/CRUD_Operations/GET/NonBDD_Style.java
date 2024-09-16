@@ -1,4 +1,4 @@
-package org.example.ex_15092024.CRUD.GET;
+package org.example.CRUD_Operations.GET;
 
 import io.restassured.RestAssured;
 import io.restassured.specification.RequestSpecification;
