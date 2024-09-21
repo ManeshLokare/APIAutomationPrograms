@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/LENOVO/IdeaProjects/APIAutomation/src/test/java/org/example/TestNG/Assertions.java">
+        <classes>
+            <class name="org.example.TestNG.Assertions.Soft_Hard_Assertions">
+                <methods>
+                    <include name="Soft_Assert"/>
+                    <include name="Hard_Assert"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
