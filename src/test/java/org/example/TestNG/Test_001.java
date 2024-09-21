@@ -1,10 +1,13 @@
 package org.example.TestNG;
 
+import io.qameta.allure.Description;
 import io.restassured.RestAssured;
+
 import org.testng.annotations.Test;
 
 public class Test_001 {
 
+    @Description("Get Request")
     @Test
 
     public void test_get(){
