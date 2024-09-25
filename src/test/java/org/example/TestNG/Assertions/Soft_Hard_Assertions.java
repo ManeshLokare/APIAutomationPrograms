@@ -6,19 +6,21 @@ import org.testng.asserts.SoftAssert;
 
 public class Soft_Hard_Assertions {
 
-    SoftAssert soft_assert = new SoftAssert();
     @Test
-    public void Soft_Assert()
-    {
-        soft_assert.assertTrue(false);
-        System.out.println("soft assertion");
+    public void softAssertExample() {
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertTrue(false); // This will not stop execution.
+        System.out.println("This line will be executed.");
+
     }
+
     @Test
-    public void Hard_Assert()
-    {
-        Assert.assertTrue(false);
-        System.out.println("hard assertion");
+    public void hardAssertExample() {
+        Assert.assertTrue(false); // This will throw an AssertionError and stop execution.
+        System.out.println("This line will not be executed.");
     }
+
+
 
 
 

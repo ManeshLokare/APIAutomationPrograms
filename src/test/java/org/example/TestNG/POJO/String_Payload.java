@@ -1,9 +1,9 @@
-package org.example.CRUD_Operations.POST;
+package org.example.TestNG.POJO;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
-public class BDD_Style {
+public class String_Payload {
     public static void main(String[] args) {
         // POST Request
         // URL - https://restful-booker.herokuapp.com/auth
@@ -13,6 +13,7 @@ public class BDD_Style {
         //    "password" : "password123"
         //}
         // HEADER - Content Type -> application/json
+
         //  Payload  - String(1%), Hashmap(4%), Classes( 95%)
 
         String payload  = "{\n" +
@@ -28,7 +29,4 @@ public class BDD_Style {
                 .then().log().all().statusCode(200);
 
     }
-
-
-
 }

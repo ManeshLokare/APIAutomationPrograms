@@ -29,8 +29,10 @@ public class NonBDD_Style {
 
 
         // then -- validation  Response
-        ValidatableResponse validatableResponse = response.then();
-        validatableResponse.statusCode(200);
+        ValidatableResponse vr = response.then();
+        vr.statusCode(200);
+
+
 
 
 
