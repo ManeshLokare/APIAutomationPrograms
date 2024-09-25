@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/LENOVO/IdeaProjects/APIAutomation/src/test/java/org/example/TestNG/Assertions/Soft_Hard_Assertions.java(failed)">
+    <classes>
+      <class name="org.example.TestNG.Assertions.Soft_Hard_Assertions">
+        <methods>
+          <include name="Hard_Assert"/>
+        </methods>
+      </class> <!-- org.example.TestNG.Assertions.Soft_Hard_Assertions -->
+    </classes>
+  </test> <!-- C:/Users/LENOVO/IdeaProjects/APIAutomation/src/test/java/org/example/TestNG/Assertions/Soft_Hard_Assertions.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
